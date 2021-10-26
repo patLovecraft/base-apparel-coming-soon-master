@@ -14,8 +14,6 @@ form.addEventListener("submit", (e) => {
     errorIcon.classList.remove("hidden")
   }
   if (input.value.match(pattern)) {
-    error.classList.remove("text-red-400")
-    error.classList.add("text-green-500")
     errorIcon.classList.add("hidden")
     input.classList.remove("border-red-500")
   } else {
